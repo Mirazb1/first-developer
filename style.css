@@ -9,12 +9,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
 .hader{
     color: orange;
 }
 
-section{
+.flexble-contaner{
     display: flex;
     margin-bottom: 150px;
 }
@@ -25,7 +28,7 @@ section{
 }
 
 .first-hader img{
-    width: 75%;
+    width: 83%;
 }
 
 .link-buttom{
@@ -47,4 +50,33 @@ section{
    background-image: url(images/dream-bg.png);
    background-repeat: no-repeat;
    background-position: right;
+}
+
+.color{
+    color: orange;
+}
+
+.Hero{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    border-radius: 5px;
+    box-shadow:10px 10px 40px gray;
+}
+
+.buttom-hero{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+.buttom{
+    padding: 13px;
+    background-color: lightsalmon;
+    border-color: lightsalmon;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
 }
